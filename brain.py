@@ -12,3 +12,7 @@ prediction.loadModel()
 predctions, probabilities = prediction.classifyImage(os.path.join(exec_path,'godzilla.jpg'), result_count=5)
 for eachPred, eachProb in zip(predctions, probabilities):
     print(f'{eachPred} : {eachProb}')
+
+
+
+#jfcsjkd;lcvjkfhsnd;d;ljk
