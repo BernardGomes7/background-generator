@@ -4,6 +4,7 @@ import os
 exec_path = os.getcwd()
 
 prediction = ImageClassification()
+#hehehehhehhe
 prediction.setModelTypeAsMobileNetV2()
 prediction.setModelPath(os.path.join(exec_path, 'mobilenet_v2-b0353104.pth'))
 prediction.loadModel()
@@ -16,3 +17,4 @@ for eachPred, eachProb in zip(predctions, probabilities):
 
 
 #jfcsjkd;lcvjkfhsnd;d;ljk
+
